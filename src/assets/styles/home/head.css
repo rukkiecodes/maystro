@@ -100,12 +100,110 @@
 /* ----------- Moto 360 Watch ----------- */
 .homeHead {
   position: relative;
+  height: 80vh;
+}
+
+@media (max-width: 768px) {
+  .homeHead {
+    height: 40vh;
+  }
+}
+
+@media screen and (device-width: 640px) and (device-height: 360px) {
+  .homeHead {
+    height: 90vh;
+  }
+}
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .homeHead {
+    height: 40vh;
+  }
+}
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  .homeHead {
+    height: 80vh;
+  }
+}
+
+@media screen and (device-width: 640px) and (device-height: 384px) {
+  .homeHead {
+    height: 90vh;
+  }
+}
+
+@media screen and (device-width: 732px) and (device-height: 412px) {
+  .homeHead {
+    height: 90vh;
+  }
+}
+
+@media screen and (device-width: 533px) and (device-height: 320px) {
+  .homeHead {
+    height: 90vh;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .homeHead {
+    height: 80vh;
+  }
+}
+
+@media screen and (device-width: 731px) and (device-height: 411px) {
+  .homeHead {
+    height: 90vh;
+  }
+}
+
+@media screen and (device-width: 823px) and (device-height: 411px) {
+  .homeHead {
+    height: 90vh;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .homeHead {
+    height: 30vh;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .homeHead {
+    height: 90vh;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .homeHead {
+    height: 90vh;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .homeHead {
+    height: 90vh;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .homeHead {
+    height: 90vh;
+  }
+}
+
+@media screen and (device-width: 280px) and (device-height: 653px) {
+  .homeHead {
+    height: 30vh;
+  }
 }
 
 .homeHead .headImage {
   position: absolute;
   right: 0;
   top: 0;
+  height: 100% !important;
 }
 
 .homeHead .grids {
@@ -127,6 +225,55 @@
   padding: 0 4.5em;
 }
 
+@media (max-width: 768px) {
+  .homeHead .grids {
+    height: 40%;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .homeHead .grids {
+    height: 40%;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  .homeHead .grids {
+    height: 40%;
+    width: 40%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .homeHead .grids {
+    height: 40%;
+    width: 40%;
+  }
+}
+
+@media screen and (device-width: 731px) and (device-height: 411px) {
+  .homeHead .grids {
+    height: 40%;
+    width: 40%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .homeHead .grids {
+    height: 45%;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .homeHead .grids {
+    height: 45%;
+    width: 40%;
+  }
+}
+
 .homeHead .grids::after {
   content: "";
   position: absolute;
@@ -137,7 +284,102 @@
   height: 130px;
 }
 
+@media (max-width: 768px) {
+  .homeHead .grids::after {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .homeHead .grids::after {
+    display: none;
+  }
+}
+
+@media screen and (device-width: 854px) and (device-height: 480px) {
+  .homeHead .grids::after {
+    display: none;
+  }
+}
+
+@media screen and (device-width: 731px) and (device-height: 411px) {
+  .homeHead .grids::after {
+    display: initial;
+    width: 70px;
+    height: 70px;
+    right: -12%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .homeHead .grids::after {
+    display: initial;
+    width: 90px;
+    height: 90px;
+  }
+}
+
 .homeHead .grids .texts {
   font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .homeHead .grids .texts {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (device-width: 1024px) and (device-height: 600px) {
+  .homeHead .grids .texts {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .homeHead .grids .texts {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (device-width: 320px) and (device-height: 533px) {
+  .homeHead .grids .texts {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (device-width: 854px) and (device-height: 480px) {
+  .homeHead .grids .texts {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .homeHead .grids .texts {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (device-width: 823px) and (device-height: 411px) {
+  .homeHead .grids .texts {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .homeHead .grids .texts {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .homeHead .grids .texts {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (device-width: 280px) and (device-height: 653px) {
+  .homeHead .grids .texts {
+    font-size: .8rem;
+  }
 }
 /*# sourceMappingURL=head.css.map */
