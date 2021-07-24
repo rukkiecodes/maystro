@@ -1,0 +1,37 @@
+@import "../settings/mediaQuery";
+.homeHead {
+  position: relative;
+
+  .headImage {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .grids {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #f3a5d9;
+    width: 35%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4.5em;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -15%;
+      background: #000;
+      width: 130px;
+      height: 130px;
+    }
+
+    .texts {
+      font-size: 2rem;
+    }
+  }
+}

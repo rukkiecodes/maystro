@@ -1,16 +1,14 @@
 <template>
-  <hello-world />
+  <Home />
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
+import Home from "../components/home/Home";
 import { mapMutations } from "vuex"
 
 export default {
-  name: "Home",
-
   components: {
-    HelloWorld,
+    Home,
   },
 
   mounted() {
