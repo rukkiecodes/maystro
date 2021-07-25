@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <AppNavigation />
-    <v-main>
+    <v-main class="black">
       <SafeArea />
       <transition name="fade" mode="out-in">
         <router-view />
@@ -26,9 +26,9 @@ export default {
 <style scoped>
 .fade-enter-active,
 .fade-leave-active {
-  transition-duration: 0.3s;
+  transition-duration: 0.5s;
   transition-property: opacity;
-  transition-timing-function: ease;
+  transition-timing-function: ease-in-out;
 }
 
 .fade-enter,

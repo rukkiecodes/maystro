@@ -14,13 +14,14 @@
           <v-card
             color="transparent"
             class="ma-0 mb-15 pa-0"
-            elevation="0"
+            style="cursor: pointer"
             tile
           >
             <v-card-text class="pa-0">
               <v-img
                 :lazy-src="collection.image"
                 :src="collection.image"
+                class="cardImage"
               ></v-img>
             </v-card-text>
             <v-card-text
@@ -78,3 +79,7 @@ export default {
   }),
 };
 </script>
+
+<style scoped>
+@import url(../../../assets/styles/home/collection.css);
+</style>

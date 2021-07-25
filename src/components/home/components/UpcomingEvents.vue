@@ -44,8 +44,8 @@
             class="upcomingEventsCards ma-0 pa-0 mb-15"
           >
             <v-card-text class="ma-0 pa-0">
-              <v-img :lazy-src="event.image" :src="event.image">
-                <v-toolbar flat color="transparent" class="ma-2 mx-1" dense>
+              <v-img class="cardImage" :lazy-src="event.image" :src="event.image">
+                <v-toolbar flat color="transparent" class="ma-2 mx-1 cardToolbar" dense>
                   <v-spacer />
                   <v-btn class="white" depressed fab small>
                     <img
@@ -102,3 +102,7 @@ export default {
   }),
 };
 </script>
+
+<style scoped>
+@import url(../../../assets/styles/home/collection.css);
+</style>
